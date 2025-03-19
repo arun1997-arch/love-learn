@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Love & Learn Preschool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="indax.html">
+                <img src="../images/logo.png" alt="Love & Learn Preschool" width="150">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="indax.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/g1.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption">
+                    <h1 class="text-color">Inspiring Young Minds, One Lesson at a Time</h1>
+                    <p>We are committed to nurturing creativity, curiosity, and confidence in every student.</p>
+                   
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="../images/g2.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption">
+                    <h1 class="text-color">Shaping a Brighter Tomorrow</h1>
+                    <p>Quality education blended with innovation to create future leaders.</p>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="../images/g3.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption">
+                    <h1 class="text-color">Empowering Knowledge, Enriching Lives</h1>
+                    <p>Join a community that fosters growth, learning, and excellence.</p>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="../images/g4.jpg" class="d-block w-100" alt="Slide 4">
+                <div class="carousel-caption">
+                    <h1 class="text-color">Transforming Learning into Lifelong Success</h1>
+                    <p>Our mission is to create an inspiring environment for students to thrive.</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+    <section>
+        <div class="container mt-5">
+            <div class="text-center">
+                <h1>Our Classes</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/cl1.jpg" class="card-img-top" alt="Toddler Club">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Toddler Club</h5>
+                            <p class="card-text">Age: 1.5yrs - 3yrs</p>
+                            <p class="card-text">At this stage, toddlers develop repetitive habits...</p>
+                            <!-- Button to open modal -->
+                            <a href="#" class="btn btn-read-more" data-bs-toggle="modal"
+                                data-bs-target="#readMoreModal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/cl2.jpg" class="card-img-top" alt="Pre-KG">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pre-KG</h5>
+                            <p class="card-text">Age: 3yrs - 4yrs</p>
+                            <p class="card-text">Preschool development takes place between ages three and four...</p>
+                            <a href="#" class="btn btn-read-more"data-bs-toggle="modal"
+                            data-bs-toggle="modal"
+                                data-bs-target="#readMoreModal2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/cl3.jpg" class="card-img-top" alt="LKG">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">LKG</h5>
+                            <p class="card-text">Age: 4yrs - 5yrs</p>
+                            <p class="card-text">As your child moves from infancy to preschool years, they experience
+                                significant growth...</p>
+                            <a href="#" class="btn btn-read-more" data-bs-toggle="modal"
+                            data-bs-target="#readMoreModal3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/cl4.jpg" class="card-img-top" alt="LKG">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">UKG</h5>
+                            <p class="card-text">Age: 5yrs - 6yrs</p>
+                            <p class="card-text">At this stage, children engage in conversation, interact with others,
+                                and observe ...</p>
+                            <a href="#" class="btn btn-read-more"data-bs-toggle="modal"
+                            data-bs-target="#readMoreModal4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/cl5.jpg" class="card-img-top" alt="LKG">
+                        <div class="card-body text-center">
+                            <h5 class="card-title"> After SchoolCare </h5>
+                            <p class="card-text">Age: 6yrs - Above</p>
+                            <p class="card-text">In the contemporary educational landscape, after-school care programs
+                                have emerged...</p>
+                            <a href="#" class="btn btn-read-more"data-bs-toggle="modal"
+                            data-bs-target="#readMoreModal5">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/cl6.jpg" class="card-img-top" alt="LKG">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">DayCare</h5>
+                            <p class="card-text">Six Month Above</p>
+                            <p class="card-text">As you first begin to think about childcare options for your little
+                                one...</p>
+                            <a href="#" class="btn btn-read-more" data-bs-toggle="modal"
+                            data-bs-target="#readMoreModal6">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="readMoreModal" tabindex="-1" aria-labelledby="readMoreModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span>🌟 Toddler Club Details</span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>👶 At this stage, toddlers develop habits and explore through their senses. They learn best through play, interaction, and hands-on activities.</p>
+                    <p>🎨 Our Toddler Club offers a safe space with activities that support cognitive and motor development.</p>
+                    <p>🗣️ We help toddlers enhance social skills by encouraging polite communication, making requests, showing gratitude, and apologizing when needed.</p>
+                    <p>🤝 Through interactive play, we build strong communication skills, ensuring toddlers learn to express their needs in a kind and respectful way.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="readMoreModal2" tabindex="-1" aria-labelledby="readMoreModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span>🌟Pre-KG</span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>🏞️ <strong>Outdoor & Indoor Play:</strong> Children enjoy engaging rides, toys, and activities that boost physical and cognitive development.</p>
+                    <p>🎭 <strong>Structured & Free Play:</strong> Helps enhance coordination, strength, and social interaction.</p>
+                    <p>🎨 <strong>Creativity & Exploration:</strong> The play area allows kids to experiment, learn, and grow in a fun-filled setting.</p>
+                    <p>🧩 <strong>Interactive Games:</strong> Improve motor skills, teamwork, and creativity through engaging activities.</p>
+                    <p>📚 <strong>Language Development:</strong> Children gradually form words, sentences, and confidently communicate.</p>
+                    <p>🖍️ <strong>Fine Motor Skills:</strong> Drawing and coloring activities foster self-expression and early learning.</p>
+                    <p>💡 <strong>Curiosity & Problem-Solving:</strong> Time outdoors enhances emotional expression and intellectual growth.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="readMoreModal3" tabindex="-1" aria-labelledby="readMoreModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span>🌟 LKG Activities</span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>🚌 <strong>Exciting Field Trips:</strong> Children explore the world around them under safe teacher supervision, sparking curiosity and confidence.</p>
+                    <p>🎭 <strong>Interactive Learning:</strong> Trips provide hands-on experiences, helping kids connect classroom learning with real-world scenarios.</p>
+                    <p>🍳 <strong>Cookery Show:</strong> Fun cooking sessions introduce children to healthy eating habits, table manners, and meal preparation joy.</p>
+                    <p>🎤 <strong>Special Events:</strong> Engaging programs help children express themselves, communicate, and develop confidence.</p>
+                    <p>📖 <strong>Storytelling & Role-Playing:</strong> Activities like role-playing and group presentations help overcome stage fear and encourage expression.</p>
+                    <p>🤝 <strong>Building Social Skills:</strong> Group activities foster teamwork, independence, and self-assurance.</p>
+                    <p>🌟 <strong>Memorable Experiences:</strong> Our events prepare children for group interactions with enthusiasm and confidence.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="readMoreModal4" tabindex="-1" aria-labelledby="readMoreModalLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span>🌟 UKG Activities</span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Age:</strong> 5 - 6 years</p>
+                    <p>At Love & Learn Preschool, children at this stage develop confidence in talking, interacting, and observing the world around them. They enhance their vocabulary, reading, writing, and numerical skills while growing socially and cognitively.</p>
+                    
+                    <h5>🏃 Physical Skills</h5>
+                    <p>Children learn to walk on tiptoes, balance on a beam, jump rope, hop on one foot, and even dribble a basketball. They start participating in activities like swimming and dancing, building strength and coordination.</p>
+
+                    <h5>🤝 Social Skills</h5>
+                    <p>At this stage, children start valuing friendships and seek approval from their peers. They begin to understand concepts like right and wrong and enjoy performing (singing, dancing, acting) to get attention. They also develop a sense of sharing and teamwork.</p>
+
+                    <h5>🧠 Cognitive Thinking</h5>
+                    <p>By watching and interacting with others, children learn to recognize colors, shapes, and letters. They begin reciting their names, addresses, and phone numbers. They also understand that stories have a beginning, middle, and end, and can count objects up to 10 while reciting numbers up to 20.</p>
+
+                    <h5>🎭 Creative & Imaginative Play</h5>
+                    <p>The Love & Learn Preschool Puppet Theatre, storytelling, art, and role-playing encourage creativity and imagination. By the end of the UKG class, children gain independence, refine their writing and tool-handling skills, and are well-prepared for school admission tests.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="readMoreModal5" tabindex="-1" aria-labelledby="readMoreModalLabel5" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span>🌟 After School Care</span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Supporting Your Child Beyond School Hours</strong></p>
+                    <p>At Love & Learn Preschool, our <strong>After School Care</strong> program provides a safe, engaging, and nurturing environment where children can relax, learn, and play after their regular school day.</p>
+                    
+                    <h5>📚 Homework Assistance</h5>
+                    <p>We offer guided homework support, ensuring children complete their assignments efficiently while developing independent learning habits.</p>
+
+                    <h5>🎨 Creative & Fun Activities</h5>
+                    <p>Our program includes art, crafts, music, and storytelling to encourage creativity and self-expression.</p>
+
+                    <h5>🏃‍♂️ Outdoor Play & Fitness</h5>
+                    <p>We believe in the importance of movement! Kids enjoy outdoor games, group activities, and fun exercises that keep them active and healthy.</p>
+
+                    <h5>🍎 Nutritious Snacks</h5>
+                    <p>A well-balanced snack time keeps children energized and promotes healthy eating habits.</p>
+
+                    <h5>🤝 Social Development</h5>
+                    <p>Through group interactions, children build friendships, learn teamwork, and enhance their communication skills.</p>
+
+                    <p>Our After School Care program ensures that children continue to grow in a **safe, supportive, and enjoyable** space while parents have peace of mind. 🏡✨</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="readMoreModal6" tabindex="-1" aria-labelledby="readMoreModalLabel6" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span>🌟 Day Care Services</span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Providing a Safe & Nurturing Space for Your Child</strong></p>
+                    <p>At Love & Learn Preschool, our <strong>Day Care</strong> program is designed to offer a **home away from home** where children feel safe, cared for, and engaged throughout the day.</p>
+
+                    <h5>🎯 Structured Daily Routine</h5>
+                    <p>We maintain a balance of learning, play, and rest to ensure children stay happy and active.</p>
+
+                    <h5>🏡 Warm & Caring Environment</h5>
+                    <p>Our trained caregivers provide a nurturing space where children feel comfortable and loved.</p>
+
+                    <h5>🧩 Engaging Activities</h5>
+                    <p>Interactive play, music, storytelling, and creative exercises help in cognitive and emotional development.</p>
+
+                    <h5>🍎 Healthy Meals & Snacks</h5>
+                    <p>We provide nutritious and balanced meals to support children’s growth and energy needs.</p>
+
+                    <h5>😴 Nap Time & Relaxation</h5>
+                    <p>A dedicated quiet space allows children to rest and recharge during the day.</p>
+
+                    <h5>🤝 Social Interaction</h5>
+                    <p>Through group activities, children develop essential social skills, teamwork, and confidence.</p>
+
+                    <p>Our **Day Care** service ensures that your little one is in **safe, caring, and stimulating hands** while you're at work. 🏡✨</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="custom-footer">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Location -->
+                <div class="col-md-3">
+                    <h5 class="footer-heading"><i class="fas fa-map-marker-alt"></i> Location</h5>
+                    <p>TC 98/3196, Chirayil SB Homes, Near Technopark Phase 3, Kulathoor, P.O TVM - 69558</p>
+                </div>
+
+                <!-- Opening Hours -->
+                <div class="col-md-3">
+                    <h5 class="footer-heading"><i class="fas fa-clock"></i> Opening Hours</h5>
+                    <p>Monday - Friday <br> 9:00 AM - 5:00 PM</p>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col-md-3">
+                    <h5 class="footer-heading"><i class="fas fa-phone"></i> Contact Us</h5>
+                    <p>Ph: 994699100, 9567946445, 974491956</p>
+                    <p>Email: loveandlearnpreschool@gmail.com</p>
+                </div>
+
+                <!-- Stay Connected -->
+                <div class="col-md-3">
+                    <h5 class="footer-heading"><i class="fas fa-share-alt"></i> Stay Connected</h5>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright-text">
+                <p>© Copyright 2025. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CSS -->
+
+    <script>
+        window.addEventListener("scroll", function() {
+            let navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
